@@ -1,6 +1,6 @@
 body { background-color: #fff; font-size: 18px; font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif; }
 
-h1 { color: #F229CE; font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+h1 { color: #F229CE; font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; margin-right: 10px; margin-bottom: 20px; margin-left: 10px; }
 
 .container::after { clear: both; content: ""; display: table; }
 

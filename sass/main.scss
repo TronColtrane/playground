@@ -11,6 +11,8 @@ $primary-link-hover: #6BD2CF;
 $logo: '../images/logo.jpg';
 $grey-border: 1px solid #666;
 
+$line-height-standard: 1;
+
 body {background-color:$bg-color; }
 
 h1 {
@@ -30,6 +32,15 @@ h1 {
   @include clearfix;
   float:left;
 }
+
+ul {
+  list-style-type: none;
+  li {
+    line-height:$line-height-standard;
+	}
+
+}
+
 
 .links {
   float:left;

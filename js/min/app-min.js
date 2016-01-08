@@ -1,0 +1,1 @@
+!function(){var r=angular.module("sorcererApp",[]);r.controller("sorcererController",function(){this.links=o});var o=[{name:"Sorcerer Soundcloud",url:"http://www.soundcloud.com/sorcerermusic"},{name:"Sorcerer Tumblr",url:"http://www.sorcerermusic.tumblr.com"},{name:"Sorcerer Facebook",url:"https://www.facebook.com/Sorcerer-music-146150358740324/"}]}();

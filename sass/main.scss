@@ -1,0 +1,51 @@
+@import "bourbon";
+
+
+//colors
+$bg-color: #fff;
+$pink: #F229CE;
+$primary-link: #6098A8;
+$primary-link-hover: #6BD2CF;
+
+//logo
+$logo: '../images/logo.jpg';
+$grey-border: 1px solid #666;
+
+body {background-color:$bg-color; }
+
+h1 {
+  color:$pink;
+  font-family: $helvetica;
+}
+
+.container {
+  @include clearfix;
+}
+
+.logo {
+  background-image: url($logo);
+  @include margin(null 10px 3em 20vh);
+  height:340px;
+  width:500px;
+  @include clearfix;
+  float:left;
+}
+
+.links {
+  float:left;
+}
+
+.triangle {
+  @include triangle(12px, gray, right);
+  display:inline-block;
+}
+
+
+a {
+  text-decoration: none;
+  color: $primary-link;
+
+  &:hover {
+    color: $primary-link-hover;
+  }
+}

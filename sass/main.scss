@@ -1,19 +1,22 @@
 @import "bourbon";
 
-
 //colors
 $bg-color: #fff;
 $pink: #F229CE;
-$primary-link: #6098A8;
+$primary-link: #545E81;
 $primary-link-hover: #6BD2CF;
 
 //logo
-$logo: '../images/logo.jpg';
+$feel-the-bass: '../images/bass.jpg';
 $grey-border: 1px solid #666;
-
 $line-height-standard: 1;
 
-body {background-color:$bg-color; }
+//
+body {
+  background-color:$bg-color;
+  font-size:18px;
+  font-family: $lucida-grande;
+}
 
 h1 {
   color:$pink;
@@ -25,12 +28,22 @@ h1 {
 }
 
 .logo {
-  background-image: url($logo);
-  @include margin(null 10px 3em 20vh);
-  height:340px;
+  background-image: url($feel-the-bass);
+  @include margin(null 10px 20px);
+  height:455px;
   width:500px;
   @include clearfix;
   float:left;
+}
+
+
+a {
+  text-decoration: none;
+  color: $primary-link;
+
+  &:hover {
+    color: $primary-link-hover;
+  }
 }
 
 ul {
@@ -51,12 +64,8 @@ ul {
   display:inline-block;
 }
 
-
-a {
-  text-decoration: none;
-  color: $primary-link;
-
-  &:hover {
-    color: $primary-link-hover;
-  }
+.soundcloud {
+  text-align:center;
+  width:400px;
+  @include margin(null 10px 20px);
 }

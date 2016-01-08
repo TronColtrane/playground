@@ -1,11 +1,14 @@
-body { background-color: #fff; }
+body { background-color: #fff; font-size: 18px; font-family: "Lucida Grande", "Tahoma", "Verdana", "Arial", sans-serif; }
 
 h1 { color: #F229CE; font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 .container::after { clear: both; content: ""; display: table; }
 
-.logo { background-image: url("../images/logo.jpg"); margin-right: 10px; margin-bottom: 3em; margin-left: 20vh; height: 340px; width: 500px; float: left; }
+.logo { background-image: url("../images/bass.jpg"); margin-right: 10px; margin-bottom: 20px; margin-left: 10px; height: 455px; width: 500px; float: left; }
 .logo::after { clear: both; content: ""; display: table; }
+
+a { text-decoration: none; color: #545E81; }
+a:hover { color: #6BD2CF; }
 
 ul { list-style-type: none; }
 ul li { line-height: 1; }
@@ -14,5 +17,4 @@ ul li { line-height: 1; }
 
 .triangle { height: 0; width: 0; border-bottom: 6px solid transparent; border-left: 6px solid gray; border-top: 6px solid transparent; display: inline-block; }
 
-a { text-decoration: none; color: #6098A8; }
-a:hover { color: #6BD2CF; }
+.soundcloud { text-align: center; width: 400px; margin-right: 10px; margin-bottom: 20px; margin-left: 10px; }

@@ -19,6 +19,10 @@
   {
     name: 'Sorcerer Facebook',
     url: 'https://www.facebook.com/Sorcerer-music-146150358740324/'
+  },
+  {
+    name: 'Sorcerer Discogs',
+    url: 'http://www.discogs.com/artist/731678-Sorcerer-2'
   }
 ];
 })();
